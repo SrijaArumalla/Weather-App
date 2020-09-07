@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+    background-color: black;
+	/*background: linear-gradient(rgb(12,12,13), rgb(63,63,66));*/
+	color: white;
+}
+
+.loc, .temp
+{
+	height: 30vh;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.temp{
+	flex-direction: column;
+}
+.deg-sec{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.deg-sec span{
+	margin:10px;
+	font-size: 30px;
+}
+.deg-sec h2{
+	font-size: 40px;
+}
